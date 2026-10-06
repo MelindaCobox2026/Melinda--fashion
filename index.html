@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melinda Fashion</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
+body{background:#fff6f9;color:#4b2635}
+header{background:linear-gradient(135deg,#f39abb,#b94f78);color:white;text-align:center;padding:45px 20px}
+header h1{font-size:42px;margin-bottom:10px}
+header p{font-size:18px}
+nav{background:white;padding:15px;text-align:center;position:sticky;top:0;z-index:5;box-shadow:0 3px 12px #ddd}
+nav a{color:#a33e67;text-decoration:none;margin:0 10px;font-weight:bold}
+.inicio{text-align:center;padding:70px 20px;background:#ffe3ec}
+.inicio h2{color:#a33e67;font-size:38px;margin-bottom:15px}
+.inicio p{font-size:19px;margin-bottom:25px}
+section{padding:50px 7%}
+section h2{text-align:center;color:#a33e67;font-size:30px;margin-bottom:30px}
+.productos{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:25px}
+.producto{background:white;border-radius:18px;overflow:hidden;text-align:center;box-shadow:0 5px 18px #e2cbd3;transition:.3s}
+.producto:hover{transform:translateY(-7px)}
+.producto img{width:100%;height:280px;object-fit:cover}
+.producto h3{color:#7d3654;margin:15px 0 8px}
+.producto p{color:#777;margin:8px}
+.precio{color:#d0527d;font-size:20px;font-weight:bold;margin:12px}
+.boton{display:inline-block;background:#d45d87;color:white;padding:11px 23px;border-radius:25px;text-decoration:none;margin:10px}
+.boton:hover{background:#9f3c62}
+.contacto{text-align:center;background:#f9d4e1}
+.contacto p{margin:10px}
+footer{background:#8d3d5b;color:white;text-align:center;padding:20px}
+@media(max-width:600px){header h1{font-size:32px}nav a{display:inline-block;margin:6px;font-size:14px}}
+</style>
+</head>
+<body>
+<header><h1>🌸 Melinda Fashion 🌸</h1><p>Moda, elegancia y estilo para cada ocasión</p></header>
+<nav>
+<a href="#inicio">Inicio</a><a href="#vestidos">Vestidos</a><a href="#blusas">Blusas</a><a href="#pantalones">Pantalones</a><a href="#accesorios">Accesorios</a><a href="#contacto">Contacto</a>
+</nav>
+<div class="inicio" id="inicio">
+<h2>✨ Bienvenida a Melinda Fashion ✨</h2>
+<p>Encuentra ropa bonita, moderna y elegante para cada ocasión.</p>
+<a class="boton" href="#vestidos">Ver colección</a>
+</div>
+
+<section id="vestidos"><h2>👗 Vestidos</h2><div class="productos">
+<div class="producto"><img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80"><h3>Vestido Rosa</h3><p>Elegante y femenino</p><div class="precio">Q250</div><a class="boton" href="#contacto">Comprar</a></div>
+<div class="producto"><img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80"><h3>Vestido Elegante</h3><p>Para ocasiones especiales</p><div class="precio">Q320</div><a class="boton" href="#contacto">Comprar</a></div>
+<div class="producto"><img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=600&q=80"><h3>Vestido Casual</h3><p>Cómodo y moderno</p><div class="precio">Q220</div><a class="boton" href="#contacto">Comprar</a></div>
+</div></section>
+
+<section id="blusas"><h2>👚 Blusas</h2><div class="productos">
+<div class="producto"><img src="https://images.unsplash.com/photo-1605763240000-7e93b172d754?auto=format&fit=crop&w=600&q=80"><h3>Blusa Rosa</h3><p>Diseño femenino</p><div class="precio">Q120</div><a class="boton" href="#contacto">Comprar</a></div>
+<div class="producto"><img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=600&q=80"><h3>Blusa Elegante</h3><p>Perfecta para cualquier ocasión</p><div class="precio">Q135</div><a class="boton" href="#contacto">Comprar</a></div>
+<div class="producto"><img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80"><h3>Blusa Casual</h3><p>Ligera y cómoda</p><div class="precio">Q110</div><a class="boton" href="#contacto">Comprar</a></div>
+</div></section>
+
+<section id="pantalones"><h2>👖 Pantalones</h2><div class="productos">
+<div class="producto"><img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80"><h3>Jeans Clásicos</h3><p>Para todos los días</p><div class="precio">Q180</div><a class="boton" href="#contacto">Comprar</a></div>
+<div class="producto"><img src="https://images.unsplash.com/photo-1506629905607-d9e4e3f9e7f7?auto=format&fit=crop&w=600&q=80"><h3>Pantalón Formal</h3><p>Elegante y moderno</p><div class="precio">Q210</div><a class="boton" href="#contacto">Comprar</a></div>
+<div class="producto"><img src="https://images.unsplash.com/photo-1594633313593-bab3825d0caf?auto=format&fit=crop&w=600&q=80"><h3>Pantalón Casual</h3><p>Comodidad y estilo</p><div class="precio">Q175</div><a class="boton" href="#contacto">Comprar</a></div>
+</div></section>
+
+<section id="accesorios"><h2>💎 Accesorios</h2><div class="productos">
+<div class="producto"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=600&q=80"><h3>Collar Elegante</h3><p>Un toque especial</p><div class="precio">Q85</div><a class="boton" href="#contacto">Comprar</a></div>
+<div class="producto"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80"><h3>Bolso Rosa</h3><p>Bonito y práctico</p><div class="precio">Q195</div><a class="boton" href="#contacto">Comprar</a></div>
+<div class="producto"><img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80"><h3>Aretes</h3><p>Para complementar tu look</p><div class="precio">Q65</div><a class="boton" href="#contacto">Comprar</a></div>
+</div></section>
+
+<section class="contacto" id="contacto"><h2>💌 Contáctanos</h2><p>📱 WhatsApp: 0000-0000</p><p>📧 Correo: melindafashion@gmail.com</p><p>📍 Guatemala</p></section>
+<footer><p>© 2026 Melinda Fashion 💕</p></footer>
+</body>
+</html>
